@@ -13,6 +13,15 @@ Qu'est-ce que ça fait ? ça dit à ionic de créer un projet qui s'appelle sexp
 juste qu'il est vide et le --cordova est juste un outil qui va nous permettre de déployer sur différentes plateformes
 sur mobile (Android, iOS).
 
+
+##########
+
+
+Comment récupérer le projet ?
+
+Assurez vous d'avoir git d'installé (téléchargez le ici si vous l'avez pas : https://git-scm.com/downloads), ensuite écrivez dans un terminal (celui de VS Code par example, CTRL+J pour les nuls, les macs c'est CMD+J)
+- git clone https://github.com/FannyCaquelard/sexplique.git
+
 ########
 
 Je récupère le projet pour la première fois, que faire ? 
@@ -32,6 +41,7 @@ J'ai bien travaillé, comment envoyer mon travail sur github ????
 
 Et bien c'est tout simple, il faut que vous installiez github, allez sur le site c'est simple.
 Une fois fait, ouvrez le terminal de Visual Studio Code (CTRL+J pour les nuls, les macs c'est CMD+J).
-Faites : git add . (ça rajoute tous vos fichiers dans un état d'attente)
-ensuite : git commit -m "un petit message qui explique ce que vous avez fait" (ici vous créez un commit, c'est comme la référence de votre travail)
-et puis git push pour envoyer sur github
+Faites (tout ce qui est entre parenthèses n'est bien sûr pas à écrire dans le terminal): 
+- git add . (ça rajoute tous vos fichiers dans un état d'attente)
+- git commit -m "un petit message qui explique ce que vous avez fait" (ici vous créez un commit, c'est comme la référence de votre travail)
+- puis git push (pour envoyer sur github)
