@@ -22,5 +22,16 @@ Ensuite il faut déjà faire un npm install pour installer toutes les dépendanc
 Pour s'assurer qu'un fichier/dossier ne soit pas envoyé sur github, veuillez le renseigner dans le fichier .gitignore pour que le projet s'en batte les steaks.
 Ensuite, il faudra ajouter une plateforme sur cordova, en gros créer une structure pour que l'application puisse s'installer sur Android ou iOS.
 
-Pour ce faire : ionic cordova platform add android ou bien ionic cordova paltform add ios pour de l'iOS mais restez sur de l'android.
+Pour ce faire : ionic cordova platform add android ou bien ionic cordova platform add ios pour de l'iOS mais restez sur de l'android.
 
+
+
+#########
+
+J'ai bien travaillé, comment envoyer mon travail sur github ????
+
+Et bien c'est tout simple, il faut que vous installiez github, allez sur le site c'est simple.
+Une fois fait, ouvrez le terminal de Visual Studio Code (CTRL+J pour les nuls, les macs c'est CMD+J).
+Faites : git add . (ça rajoute tous vos fichiers dans un état d'attente)
+ensuite : git commit -m "un petit message qui explique ce que vous avez fait" (ici vous créez un commit, c'est comme la référence de votre travail)
+et puis git push pour envoyer sur github
