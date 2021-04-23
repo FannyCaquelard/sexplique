@@ -1,0 +1,7 @@
+{
+  "name": "sexplique",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
